@@ -1,0 +1,9 @@
+{
+	"mongo" : {
+		"host" : "localhost",
+		"db":"flying",
+		"port":"27017"
+
+	}
+}
+
