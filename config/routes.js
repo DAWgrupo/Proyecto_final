@@ -5,6 +5,7 @@ var InicalController = require('../controllers/inicialController'),
 	router = express.Router()
 
 router.get('/', InicalController.index);
+router.post('/index', InicalController.index);
 router.get('/galeria', InicalController.galeria);
 router.get('/comedores', InicalController.comedores);
 router.get('/estadisticas', InicalController.estadisticas);
