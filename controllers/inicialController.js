@@ -25,6 +25,10 @@ menuController.contactanos = (req, res) => {
 };
 
 
+menuController.login_inicial = (req, res) => {
+    res.render('login_inicial');
+};
+
 
 
 // AeropuertoController.getAll = (req,res,next) => {
